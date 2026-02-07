@@ -49,18 +49,20 @@ LSTM/
 
 ### Sample Classification Report
 
-                           precision    recall  f1-score   support
-```
-child sexual exploitation 1.00 1.00 1.00 21
-elections 1.00 1.00 1.00 22
-non-violent crimes 0.43 0.35 0.39 60
-safe 0.74 0.70 0.72 199
-sex-related crimes 0.96 1.00 0.98 23
-suicide & self-harm 0.96 1.00 0.98 23
-unknown s-type 0.64 0.46 0.54 39
-unsafe 0.50 0.80 0.62 55
-violent crimes 0.43 0.42 0.43 158
-```
+| Category | Precision | Recall | F1-Score | Support |
+| :--- | :--- | :---: | :---: | :---: |
+| **Child Sexual Exploitation** | 1.00 | 1.00 | 1.00 | 21 |
+| **Elections** | 1.00 | 1.00 | 1.00 | 22 |
+| **Non-violent Crimes** | 0.43 | 0.35 | 0.39 | 60 |
+| **Safe** | 0.74 | 0.70 | 0.72 | 199 |
+| **Sex-related Crimes** | 0.96 | 1.00 | 0.98 | 23 |
+| **Suicide & Self-harm** | 0.96 | 1.00 | 0.98 | 23 |
+| **Unknown S-type** | 0.64 | 0.46 | 0.54 | 39 |
+| **Unsafe** | 0.50 | 0.80 | 0.62 | 55 |
+| **Violent Crimes** | 0.43 | 0.42 | 0.43 | 158 |
+| --- | --- | --- | --- | --- |
+| **Macro F1 Score** | | | **0.7384** | **600** |
+| **Weighted F1 Score** | | | **0.6289** | **600** |
 
 **Confusion Matrix, Loss, and Accuracy Curves** are saved in `LSTM_results.pdf`.
 
