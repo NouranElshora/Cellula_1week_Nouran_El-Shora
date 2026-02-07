@@ -6,15 +6,6 @@ The goal is to classify text queries into **9 categories** using deep learning a
 
 ---
 
-## Project Structure
-LSTM/
-├── toxic_text.ipynb # Main Jupyter notebook with code
-├── cellula toxic data (1).csv # Dataset
-├── LSTM_results.pdf # PDF with metrics, confusion matrix, and training curves
-└── lstm_toxic_classifier.keras # Trained LSTM model
-
----
-
 ## Methodology
 
 1. **Data Preprocessing**
